@@ -1,4 +1,12 @@
 body {
-  background: #FFEBCC;
+  background-color: #FFEBCC;
   overflow: hidden;
+}
+
+.box_1 {
+  background: #E7BDBD;
+  width: 307px;
+  height: 532px;
+  margin-top: 12vh;
+  margin-left: 24vw;
 }
