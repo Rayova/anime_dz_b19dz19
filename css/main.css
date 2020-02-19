@@ -15,9 +15,9 @@ body {
 .box_2 {
   position: absolute;
   background: #051C31;
-  width: 58px;
-  height: 704px;
-  transform: translate(300px, 150px);
+  width: 35px;
+  height: 639px;
+  transform:translate(320px, 48px);
 }
 
 .box_3 {
@@ -77,8 +77,8 @@ body {
   position: absolute;
   background: #99B8A5;
   width: 1249px;
-  height: 63px;
-  transform: rotateZ(45deg);
+  height: 18px;
+  transform: translate(46px, 103px);
 }
 
 .line_2 {
