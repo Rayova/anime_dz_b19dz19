@@ -1,0 +1,85 @@
+body {
+  background-color: #FFD089;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.box {
+  position: absolute;
+  z-index: 1;
+  background: #A65555;
+  width: 231px;
+  height: 663px;
+}
+
+.triangle {
+  position: absolute;
+  z-index: 1;
+  background: #5C4646;
+  width: 324.95px;
+  height: 257.42px;
+}
+
+.circle {
+  position: absolute;
+  z-index: 1;
+  background: #F36C6C;
+  width: 254px;
+  height: 250px;
+}
+
+.triangle1 {
+  position: absolute;
+  z-index: 1;
+  background: #935F5F;
+  width: 574px;
+  height: 282px;
+}
+
+.triangle2 {
+  position: absolute;
+  z-index: 1;
+  background: #E6B4B4;
+  width: 541.65px;
+  height: 282px;
+}
+
+.box1 {
+  position: absolute;
+  z-index: 1;
+  background: #582626;
+  width: 81px;
+  height: 488.71px;
+}
+
+.box2 {
+  position: absolute;
+  z-index: 1;
+  background: #A64040;
+  width: 81px;
+  height: 176.65px;
+}
+
+.line {
+  position: absolute;
+  z-index: 2;
+  background: #558167;
+  width: 500.23px;
+  height: 45.35px;
+}
+
+.line1 {
+  position: absolute;
+  z-index: -1;
+  background: #99B8A5;
+  width: 565.25px;
+  height: 24.97px;
+}
+
+.line2 {
+  position: absolute;
+  z-index: 2;
+  background: #41614E;
+  width: 149.49px;
+  height: 24.97px;
+}
