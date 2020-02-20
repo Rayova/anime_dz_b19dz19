@@ -10,14 +10,18 @@ body {
   background: #A65555;
   width: 231px;
   height: 663px;
+  transform: translate(490px, 75px);
 }
 
 .triangle {
   position: absolute;
   z-index: 1;
-  background: #5C4646;
-  width: 324.95px;
-  height: 257.42px;
+  width: -36.05px;
+  height: 208.42px;
+  border-top: 90px solid transparent;
+  border-right: 422px solid #5C4646;
+  border-bottom: -26px solid transparent;
+  transform: translate(300px, 648px);
 }
 
 .circle {
@@ -26,22 +30,29 @@ body {
   background: #F36C6C;
   width: 254px;
   height: 250px;
+  border-radius: 50%;
+  transform: translate(170px, 640px);
 }
 
 .triangle1 {
   position: absolute;
   z-index: 1;
-  background: #935F5F;
   width: 574px;
-  height: 282px;
+  height: 191px;
+  transform: translate(260px, 40px);
+  border-top: 37px solid transparent;
+  border-right: 407px solid #935F5F;
 }
 
 .triangle2 {
   position: absolute;
   z-index: 1;
-  background: #E6B4B4;
-  width: 541.65px;
-  height: 282px;
+  width: 551.65px;
+  height: -18px;
+  transform: translate(376px, 616px);
+  border-top: 53px solid transparent;
+  border-right: 313px solid #E6B4B4;
+  height: 278px;
 }
 
 .box1 {
@@ -50,14 +61,16 @@ body {
   background: #582626;
   width: 81px;
   height: 488.71px;
+  transform: matrix(0, 2, 1, 1, 1005, 208);
 }
 
 .box2 {
   position: absolute;
   z-index: 1;
   background: #A64040;
-  width: 81px;
-  height: 176.65px;
+  width: 114px;
+  height: 77.65px;
+  transform: translate(793px, 868px);
 }
 
 .line {
@@ -66,14 +79,16 @@ body {
   background: #558167;
   width: 500.23px;
   height: 45.35px;
+  transform: matrix(1, -1, 0, -1, 200, 278);
 }
 
 .line1 {
   position: absolute;
   z-index: -1;
   background: #99B8A5;
-  width: 565.25px;
-  height: 24.97px;
+  width: 218.25px;
+  height: 25.97px;
+  transform: matrix(2, 1, -3, 1, 740, 490);
 }
 
 .line2 {
@@ -82,4 +97,5 @@ body {
   background: #41614E;
   width: 149.49px;
   height: 24.97px;
+  transform: matrix(2, 0, -3, 2, 600, 765);
 }
