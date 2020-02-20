@@ -33,3 +33,16 @@ let box_5animation = anime({
 })
 let b5 = document.getElementById('b5')
 b5.onclick = box_5animation.play
+
+// box_6
+let box_6animation = anime({
+  targets: '.box_6',
+  left: '240px',
+  backgroundColor: '#051C31',
+  borderRadius: ['0%', '50%'],
+  easing: 'easeInOutQuad',
+  loop: true,
+  autoplay: false
+})
+let b6 = document.getElementById('b6')
+b6.onclick = box_6animation.play
