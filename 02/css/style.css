@@ -4,7 +4,7 @@ body {
   overflow-y: hidden;
 }
 
-.box {
+.box_1 {
   position: absolute;
   z-index: 1;
   background: #A65555;

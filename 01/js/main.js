@@ -46,3 +46,28 @@ let box_6animation = anime({
 })
 let b6 = document.getElementById('b6')
 b6.onclick = box_6animation.play
+
+// box_2
+let box_2animation = anime({
+  targets: '.box_2',
+  left: '240px',
+  backgroundColor: '#051C31',
+  borderRadius: ['0%', '50%'],
+  easing: 'easeInOutQuad',
+  loop: true,
+  autoplay: false
+})
+let b2 = document.getElementById('b2')
+b2.onclick = box_2animation.play
+
+// oval_2
+let oval_2animation = anime({
+  targets: '.oval_2',
+  height: '100%', // -> from '28px' to '100%',
+  easing: 'easeInOutQuad',
+  direction: 'alternate',
+  loop: true,
+  autoplay: false
+})
+let o2 = document.getElementById('o2')
+o2.onclick = oval_2animation.play
