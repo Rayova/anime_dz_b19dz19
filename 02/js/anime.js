@@ -58,8 +58,8 @@ let line2animation = anime({
   targets: line_2,
   rotate: (0, 360),
   transform: matrix(2, 0, -3, 2, 600, 1175),
-  duration:1000,
-  autoplay:false
+  duration: 1000,
+  autoplay: false
 })
 new ScrollMagic.Scene({
   triggerElement: line_2
