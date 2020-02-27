@@ -46,7 +46,7 @@ let line0animation = anime({
   autoplay: false
 })
 new ScrollMagic.Scene({
-  triggerElement: line_O
+  triggerElement: line_0
 })
 .addTo(controller)
 .on('enter', () => line0animation.play())
@@ -57,11 +57,28 @@ let line_2 = document.querySelector('#l-2')
 let line2animation = anime({
   targets: line_2,
   rotate: (0, 360),
-  transform: matrix(2, 0, -3, 2, 600, 1175),
   duration: 1000,
   autoplay: false
 })
 new ScrollMagic.Scene({
   triggerElement: line_2
+})
 .addTo(controller)
-.on('enter', ()  => line2animation.play())
+.on('enter', () => line2animation.play())
+
+//  b-2
+
+let box_2 = document.querySelector('#b-2')
+let box2animation = anime({
+  targets: box_2,
+  rotate: (0, 240),
+  duration: 1200,
+  autoplay: false
+})
+new ScrollMagic.Scene({
+  triggerElement: box_2
+})
+.addTo(controller)
+.on('enter', () => box2animation.play())
+
+// остальные элементы будут падать как моя скидка - стремительно и красиво
