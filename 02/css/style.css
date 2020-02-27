@@ -1,10 +1,9 @@
 body {
   background-color: #FFD089;
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 
-.box_1 {
+.box {
   position: absolute;
   z-index: 1;
   background: #A65555;
@@ -39,7 +38,7 @@ body {
   z-index: 1;
   width: 574px;
   height: 191px;
-  transform: translate(260px, 40px);
+  transform: translate(260px, 650px);
   border-top: 37px solid transparent;
   border-right: 407px solid #935F5F;
 }
@@ -49,7 +48,7 @@ body {
   z-index: 1;
   width: 551.65px;
   height: -18px;
-  transform: translate(376px, 616px);
+  /* transform: translate(376px, 1226px); */
   border-top: 53px solid transparent;
   border-right: 313px solid #E6B4B4;
   height: 278px;
@@ -61,7 +60,7 @@ body {
   background: #582626;
   width: 81px;
   height: 488.71px;
-  transform: matrix(0, 2, 1, 1, 1005, 208);
+  transform: matrix(0, 2, 1, 1, 1005, 787);
 }
 
 .box2 {
@@ -70,7 +69,7 @@ body {
   background: #A64040;
   width: 114px;
   height: 77.65px;
-  transform: translate(793px, 868px);
+  transform: translate(793px, 1478px);
 }
 
 .line {
@@ -97,5 +96,5 @@ body {
   background: #41614E;
   width: 149.49px;
   height: 24.97px;
-  transform: matrix(2, 0, -3, 2, 600, 765);
+  transform: matrix(2, 0, -3, 2, 600, 1175);
 }
